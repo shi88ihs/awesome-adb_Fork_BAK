@@ -326,11 +326,11 @@ To use wireless debugging, you need to pair your device to your workstation usin
 
 8. When prompted, enter the pairing code that you received in step 5. A message indicates that your device has been successfully paired.
 
-  ```sh
-  none
-  Enter pairing code: xxxxxx
-  Successfully paired to ...
-  ```
+    ```sh
+    none
+    Enter pairing code: xxxxxx
+    Successfully paired to ...
+    ```
 
 9. (For Linux or Microsoft Windows only) Run `adb connect ipaddr:port`. Use the IP address and port under **Wireless debugging**.
 

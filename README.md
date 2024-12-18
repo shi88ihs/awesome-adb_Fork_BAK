@@ -334,17 +334,17 @@ Android 11 及更高版本支持使用 Android 调试桥 (adb) 从工作站以�
 
 5. 选择使用配对码配对设备，使用弹窗中的 IP 地址和端口号。
 
-  ```sh
-  adb pair ipaddr:port
-  ```
+   ```sh
+   adb pair ipaddr:port
+   ```
 
 6. 提示`Enter pairing code: `时输入弹窗中的配对码，成功后会显示`Successfully paired to ...`。
 
 7. 使用无线调试下的 **IP 地址和端口**。
 
-  ```sh
-  adb connect ipaddr:port
-  ```
+   ```sh
+   adb connect ipaddr:port
+   ```
 
 8. 确认连接状态。
 
