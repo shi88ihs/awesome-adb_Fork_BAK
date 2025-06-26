@@ -1,12 +1,19 @@
-# dumpsys 相关命令
+# dumpsys Related Commands
+
+## Related Commands
+
+- `am` – Activity Manager
+- `pm` – Package Manager
+- `dumpsys` – Dump system service info
+- `logcat` – View Android system logs
 
 <!-- vim-markdown-toc GFM -->
-* [获取当前Activity](#获取当前activity)
-* [获取当前Window](#获取当前window)
+* [Get Current Activity](Get Current activity)
+* [Get Current Window](Get Current Window)
 <!-- vim-markdown-toc -->
 
 
-### 获取当前Activity
+### Get Current Activity
 
 Linux:
 ```sh
@@ -18,7 +25,7 @@ Windows:
 adb shell dumpsys activity  | findstr "mFocusedActicity"
 ```
 
-### 获取当前Window
+### Get Current Window
 
 ```sh
 adb shell dumpsys window w | grep \/  |  grep name=
