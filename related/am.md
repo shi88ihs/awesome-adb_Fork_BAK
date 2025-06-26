@@ -1,4 +1,4 @@
-# am 相关命令
+# am commands:
 
 ```sh
 usage: am [subcommand] [options]
