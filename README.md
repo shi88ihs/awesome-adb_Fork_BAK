@@ -117,5 +117,5 @@ adb unroot
 adb -P <port> start-server
 ```
 
-Default is `5037`.
+Default is usually 5555. Find the $IP $PORT in Dev Settings or if you have root and termux, set this port to whatever you want. 
 
