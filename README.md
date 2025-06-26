@@ -1,4 +1,3 @@
-````markdown
 # ![Awesome ADB](./assets/title.png)
 
 **ADB (Android Debug Bridge)** is a powerful and essential tool for Android developers and testers, and a versatile utility for power users of Android devices.
